@@ -60,7 +60,7 @@ li {
   font-size: 26px;
   line-height: 1.19;
   font-family: "Raleway", sans-serif;
-}
+  }
 
 .logo span {
   color: var(--color-dodger-blue);
@@ -69,6 +69,7 @@ li {
 .logo.header-logo {
   color: var(--color-black);
   display: block;
+  padding: 24px 0 25px;
   margin-right: 93px;
 }
 
@@ -76,11 +77,15 @@ address {
   font-style: normal;
 }
 
+.header-nav-link {
+  padding: 32px 0;
+}
 .header-contact-link {
   color: var(--color-boulder);
   display: inline-flex;
   gap: 10px;
   align-items: center;
+  padding: 32px 0;
 }
 
 .header-contact-link svg {
@@ -221,6 +226,7 @@ address {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin: 0;
 }
 
 .project-section-subtitle {
@@ -242,7 +248,6 @@ address {
 }
 
 .header {
-  padding: 24px 0 25px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -470,6 +475,10 @@ address {
   margin-right: 94px;
 }
 
+.container.footer-inline {
+  display: flex;
+  align-items: baseline;
+}
 .footer-svg-items {
   display: flex;
   justify-content: center;
@@ -497,7 +506,7 @@ address {
   height: 100%;
   fill: var(--color-white);
 }
-
+ 
 .fopter-svg-inline {
   font-style: normal;
   font-weight: 700;
@@ -515,3 +524,36 @@ address {
 .join-in {
   padding-top: 14px;
 }
+
+/*.is-hidden .backdrop {
+  visibility: visible;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  height: 581px;
+  background-color: var(--color-white);
+  border-radius: 4px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+*/
