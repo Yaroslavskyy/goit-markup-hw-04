@@ -240,6 +240,10 @@ address {
   padding: 20px 24px;
 }
 
+.project-section-img {
+  display: block;
+  margin-left: -1px;
+}
 /*--Завдання 3 header--*/
 
 .header-contacts-link {
