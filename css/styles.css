@@ -243,6 +243,7 @@ address {
 .project-section-img {
   display: block;
   margin-left: -1px;
+  margin-right: -1px;
 }
 /*--Завдання 3 header--*/
 
